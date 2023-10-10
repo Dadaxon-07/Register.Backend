@@ -10,7 +10,7 @@ namespace Register.Backend.DataLayer
         {
             
         }
-        public DbSet<User>MyProperty { get; set; }
+        public DbSet<User> Users { get; set; }
 
         
 
