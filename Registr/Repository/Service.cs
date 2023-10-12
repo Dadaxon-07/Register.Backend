@@ -22,7 +22,7 @@ namespace Register.Backend.Repository
             return true;
         }
 
-     public async Task<bool> IService.SigUpAsync(User user)
+     public async Task<bool> IService.SignUpAsync(User user)
         {
           if(user != null ) 
             {

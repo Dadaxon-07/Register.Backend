@@ -17,7 +17,7 @@ namespace Register.Backend.Controllers
         [HttpPost]
         public async Task<IActionResult>LogIn(string email, string password)
         {
-          var res = await _service.LogIN(email, password);
+          var res = await _service.LogIn(email, password);
             if(res == false)
             {
                 return BadRequest();
